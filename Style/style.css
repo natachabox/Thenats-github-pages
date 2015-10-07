@@ -33,6 +33,14 @@
 	margin-bottom: 4em;
 }
 
+#wrapper a	{
+	color: white;
+}
+
+#wrapper a:hover	{
+	color : rgb(177, 123, 37);
+}
+
 #news h2	{
 	font-size: 24px;
 }
@@ -50,11 +58,19 @@ margin-bottom: 100px;
 .feature p {
 font-weight: 400;
 letter-spacing: 1px;
+color: black;
 
 }
 
 .feature img {
 margin-bottom: 2em;	
+}
+
+.feature a {
+color: black;	
+}
+.feature a:hover {
+color : rgb(177, 123, 37);
 }
 
 .navbar-transparent {
@@ -85,4 +101,9 @@ background-color: rgba(177, 123, 37, 0.4)
 
 .vertical-spacer {
 margin-bottom: 100px;
+}
+
+.wip {
+font-size: 24px;
+margin-top: 150px;
 }
